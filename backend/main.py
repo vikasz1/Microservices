@@ -14,7 +14,7 @@ app.add_middleware(
 @app.get("/")
 async def read_text():
     return """
-    Hello from the FastAPI
+    Hello from the FastAPI Server
     """
 
 if __name__ == "__main__":

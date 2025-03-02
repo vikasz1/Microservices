@@ -7,7 +7,7 @@ DOCKER_REPO="$DOCKER_USERNAME/$IMAGE_NAME"
 TAG="latest"
 
 # Build the Docker image
-docker build -t $IMAGE_NAME -f backend/Dockerfile .
+docker build -t $IMAGE_NAME .
 
 # Tag the Docker image
 docker tag $IMAGE_NAME $DOCKER_REPO:$TAG
